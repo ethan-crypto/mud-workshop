@@ -1,0 +1,12 @@
+procs:
+  anvil:
+    shell: anvil --dump-state anvil-state.json
+  deploy-factory:
+    cwd: ../coinbase-smart-wallet
+    shell: make deploy-local
+  deploy-bundler:
+    cwd: ../alto
+    shell: pnpm ts-node scripts/localDeployer/index.ts
+  deploy-paymaster:
+    cwd: ../quarry-paymaster/packages/contracts
+    shell: pnpm mud deploy --salt $(cast from-utf8 "quarry paymaster") && pnpm fund:paymaster:local && pnpm fund:issuer:local

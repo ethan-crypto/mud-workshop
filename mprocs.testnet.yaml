@@ -1,0 +1,9 @@
+procs:
+  client:
+    shell: pnpm vite
+  contracts:
+    shell: pnpm mud dev-contracts --rpc ${RPC_URL} --alwaysRunPostDeploy --worldAddress $(cat worlds.json | jq -r ".[\"${VITE_CHAIN_ID}\"].address // empty")
+  explorer:
+    shell: CHAIN_ID=${VITE_CHAIN_ID} pnpm explorer dev
+  tunnel:
+    shell: cloudflared tunnel run

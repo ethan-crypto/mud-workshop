@@ -1,0 +1,20 @@
+[profile.default]
+solc = "0.8.24"
+via_ir = true
+ffi = false
+fuzz_runs = 256
+optimizer = true
+optimizer_runs = 3000
+verbosity = 2
+src = "contracts"
+test = "contracts"
+script = "contracts/scripts"
+out = "out"
+extra_output_files = [
+  "abi",
+  "evm.bytecode"
+]
+fs_permissions = [{ access = "read", path = "./"}]
+
+[fmt]
+tab_width = 2
