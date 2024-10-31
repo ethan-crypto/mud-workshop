@@ -10,7 +10,7 @@ export async function getWorldDeploy(chainId: number): Promise<{
     console.debug("Could not import worlds.json", error);
     return { default: null };
   });
-  const deploy = worlds?.[chainId];
+  const deploy = worlds?.[`${chainId}`];
   if (!deploy) {
     throw new Error(
       `No world deploy found for chain ${chainId} in "worlds.json".`

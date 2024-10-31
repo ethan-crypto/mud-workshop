@@ -1,19 +1,16 @@
 import { stash } from "./stash";
 import { initialProgress, SyncProgress } from "@latticexyz/store-sync/internal";
 import { SyncStep } from "@latticexyz/store-sync";
-import { useStash } from "@latticexyz/stash/react";
-import { getRecord } from "@latticexyz/stash/internal";
 import { useMemo } from "react";
+import { useRecord } from "./useRecord";
 
 export function useSyncProgress() {
-  const progress = useStash(stash, (state) =>
-    getRecord({
-      state,
-      table: SyncProgress,
-      key: {},
-      defaultValue: initialProgress,
-    })
-  );
+  const progress = useRecord({
+    stash,
+    table: SyncProgress,
+    key: {},
+    defaultValue: initialProgress,
+  });
   return useMemo(
     () => ({
       ...progress,
