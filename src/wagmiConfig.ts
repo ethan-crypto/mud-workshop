@@ -1,6 +1,6 @@
 import { Chain, http, webSocket } from "viem";
 import { anvil } from "viem/chains";
-import { createWagmiConfig, wiresaw } from "@latticexyz/entrykit/internal";
+import { createWagmiConfig } from "@latticexyz/entrykit/internal";
 import { rhodolite, garnet, redstone } from "@latticexyz/common/chains";
 import { chainId } from "./common";
 
@@ -58,7 +58,7 @@ const chains = [
 const transports = {
   [anvil.id]: webSocket(),
   [garnet.id]: http(),
-  [rhodolite.id]: wiresaw(http()),
+  [rhodolite.id]: http(),
   [redstone.id]: http(),
 } as const;
 
