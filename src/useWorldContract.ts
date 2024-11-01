@@ -12,7 +12,10 @@ export function useWorldContract() {
   const { worldAddress } = useEntryKitConfig();
   const { waitForTransaction } = useSync();
   const client = useClient({ chainId });
-  const { data: sessionClient } = useSessionClient();
+  const { data: sessionClient, status: sessionClientStatus } =
+    useSessionClient();
+
+  console.log("sessionClient", sessionClientStatus, sessionClient);
 
   const { data: worldContract } = useQuery({
     queryKey: ["worldContract", worldAddress, client?.uid, sessionClient?.uid],

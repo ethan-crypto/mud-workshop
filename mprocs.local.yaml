@@ -1,6 +1,12 @@
 procs:
   client:
-    shell: pnpm vite
+    # Linking packages with `link:` causes issues with common dependencies like React and Wagmi.
+    # So instead, we're using `file:` for these.
+    #
+    # But installing packages with `file:` means Vite doesn't detect file changes.
+    # So we have to manually restart Vite when we want to rebuild, but we also have to
+    # skip the cache with `--force`. Not great, but this is the best we've got for now.
+    shell: pnpm nodemon --exec "vite --force" --watch "../mud"
   contracts:
     shell: pnpm mud dev-contracts --rpc ${RPC_URL} --alwaysRunPostDeploy
   anvil:
@@ -12,7 +18,7 @@ procs:
   issuer:
     cwd: ../quarry-paymaster/packages/issuer
     shell: pnpm build && pnpm start
-  explorer:
-    shell: CHAIN_ID=${VITE_CHAIN_ID} pnpm explorer
-  tunnel:
-    shell: cloudflared tunnel run
+  # explorer:
+  #   shell: CHAIN_ID=${VITE_CHAIN_ID} pnpm explorer
+  # tunnel:
+  #   shell: cloudflared tunnel run

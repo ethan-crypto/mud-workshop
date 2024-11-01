@@ -4,9 +4,9 @@ import { ReactNode } from "react";
 import { StashSyncProvider } from "./stash/StashSyncProvider";
 import { stash } from "./stash/stash";
 import { Address } from "viem";
-import { EntryKitProvider } from "@latticexyz/entrykit/internal";
-import { entryKitConfig } from "./entryKitConfig";
+import { defineConfig, EntryKitProvider } from "@latticexyz/entrykit/internal";
 import { wagmiConfig } from "./wagmiConfig";
+import { chainId } from "./common";
 
 const queryClient = new QueryClient();
 
@@ -23,7 +23,10 @@ export function Providers({ worldDeploy, children }: Props) {
     <WagmiProvider config={wagmiConfig}>
       <QueryClientProvider client={queryClient}>
         <EntryKitProvider
-          config={{ worldAddress: worldDeploy.address, ...entryKitConfig }}
+          config={defineConfig({
+            chainId,
+            worldAddress: worldDeploy.address,
+          })}
         >
           <StashSyncProvider
             address={worldDeploy.address}
