@@ -11,11 +11,5 @@ procs:
     shell: pnpm mud dev-contracts --rpc ${RPC_URL} --alwaysRunPostDeploy
   anvil:
     shell: anvil --load-state anvil-state.json
-  # bundler:
-  #   cwd: ../alto
-  #   shell: pnpm ts-node src --config ../mud-workshop/alto.config.json
-  # issuer:
-  #   cwd: ../quarry-paymaster/packages/issuer
-  #   shell: pnpm build && pnpm start
-  # explorer:
-  #   shell: CHAIN_ID=${VITE_CHAIN_ID} pnpm explorer
+  explorer:
+    shell: pnpm explorer --chainId=$VITE_CHAIN_ID

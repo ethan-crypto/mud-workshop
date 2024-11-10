@@ -11,9 +11,17 @@ const chains = [
   {
     ...anvil,
     contracts: {
+      ...anvil.contracts,
       // TODO: make optional in entrykit?
       quarryPaymaster: {
         address: "0x8D8b6b8414E1e3DcfD4168561b9be6bD3bF6eC4B",
+      },
+    },
+    blockExplorers: {
+      default: {} as never,
+      worldsExplorer: {
+        name: "MUD Worlds Explorer",
+        url: "http://localhost:13690/anvil/worlds",
       },
     },
   },

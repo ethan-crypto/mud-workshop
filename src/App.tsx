@@ -1,6 +1,7 @@
 import { AccountButton } from "@latticexyz/entrykit/internal";
 import { Map } from "./Map";
 import { useSyncProgress } from "./mud/useSyncProgress";
+import { Explorer } from "./Explorer";
 
 export function App() {
   const { isLive, message, percentage } = useSyncProgress();
@@ -18,6 +19,8 @@ export function App() {
       <div className="absolute top-0 right-0 m-2">
         <AccountButton />
       </div>
+
+      <Explorer />
     </div>
   );
 }
