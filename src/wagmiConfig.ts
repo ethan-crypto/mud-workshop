@@ -10,17 +10,10 @@ const chains = [
   rhodolite,
   {
     ...anvil,
-    rpcUrls: {
-      ...anvil.rpcUrls,
-      // TODO: automatically grant allowance in anvil instead of requiring the service
-      quarryPassIssuer: {
-        http: ["http://127.0.0.1:3003/rpc"],
-      },
-    },
     contracts: {
       // TODO: make optional in entrykit?
       quarryPaymaster: {
-        address: "0x20Ab596d26ef6cdD2aF4588284e3c09728Bfb1b9",
+        address: "0x8D8b6b8414E1e3DcfD4168561b9be6bD3bF6eC4B",
       },
     },
   },

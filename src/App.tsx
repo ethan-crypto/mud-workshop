@@ -1,6 +1,6 @@
 import { AccountButton } from "@latticexyz/entrykit/internal";
 import { Map } from "./Map";
-import { useSyncProgress } from "./stash/useSyncProgress";
+import { useSyncProgress } from "./mud/useSyncProgress";
 
 export function App() {
   const { isLive, message, percentage } = useSyncProgress();

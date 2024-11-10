@@ -13,6 +13,8 @@ overrides:
   '@latticexyz/entrykit': file:../mud/packages/entrykit
   '@latticexyz/explorer': file:../mud/packages/explorer
   '@latticexyz/gas-report': file:../mud/packages/gas-report
+  '@latticexyz/id': file:../mud/packages/id
+  '@latticexyz/paymaster': file:../mud/packages/paymaster
   '@latticexyz/protocol-parser': file:../mud/packages/protocol-parser
   '@latticexyz/recs': file:../mud/packages/recs
   '@latticexyz/schema-type': file:../mud/packages/schema-type
@@ -21,6 +23,7 @@ overrides:
   '@latticexyz/store-indexer': file:../mud/packages/store-indexer
   '@latticexyz/store-sync': file:../mud/packages/store-sync
   '@latticexyz/utils': file:../mud/packages/utils
+  '@latticexyz/wiresaw': file:../mud/packages/wiresaw
   '@latticexyz/world': file:../mud/packages/world
   '@latticexyz/world-module-metadata': file:../mud/packages/world-module-metadata
   '@latticexyz/world-modules': file:../mud/packages/world-modules
@@ -95,7 +98,7 @@ importers:
         version: 9.13.0
       '@latticexyz/cli':
         specifier: file:../mud/packages/cli
-        version: file:../mud/packages/cli(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))
+        version: file:../mud/packages/cli(bufferutil@4.0.8)(utf-8-validate@5.0.10)
       '@types/react':
         specifier: ^18.2.0
         version: 18.3.12
@@ -1412,8 +1415,6 @@ packages:
   '@latticexyz/cli@file:../mud/packages/cli':
     resolution: {directory: ../mud/packages/cli, type: directory}
     hasBin: true
-    peerDependencies:
-      viem: 2.x
 
   '@latticexyz/common@file:../mud/packages/common':
     resolution: {directory: ../mud/packages/common, type: directory}
@@ -1451,6 +1452,14 @@ packages:
   '@latticexyz/gas-report@file:../mud/packages/gas-report':
     resolution: {directory: ../mud/packages/gas-report, type: directory}
     hasBin: true
+
+  '@latticexyz/id@file:../mud/packages/id':
+    resolution: {directory: ../mud/packages/id, type: directory}
+
+  '@latticexyz/paymaster@file:../mud/packages/paymaster':
+    resolution: {directory: ../mud/packages/paymaster, type: directory}
+    peerDependencies:
+      viem: 2.x
 
   '@latticexyz/protocol-parser@file:../mud/packages/protocol-parser':
     resolution: {directory: ../mud/packages/protocol-parser, type: directory}
@@ -1492,6 +1501,11 @@ packages:
 
   '@latticexyz/utils@file:../mud/packages/utils':
     resolution: {directory: ../mud/packages/utils, type: directory}
+
+  '@latticexyz/wiresaw@file:../mud/packages/wiresaw':
+    resolution: {directory: ../mud/packages/wiresaw, type: directory}
+    peerDependencies:
+      viem: 2.x
 
   '@latticexyz/world-module-metadata@file:../mud/packages/world-module-metadata':
     resolution: {directory: ../mud/packages/world-module-metadata, type: directory}
@@ -8499,7 +8513,7 @@ snapshots:
       - typescript
       - zod
 
-  '@latticexyz/cli@file:../mud/packages/cli(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))':
+  '@latticexyz/cli@file:../mud/packages/cli(bufferutil@4.0.8)(utf-8-validate@5.0.10)':
     dependencies:
       '@ark/util': 0.2.2
       '@aws-sdk/client-kms': 3.682.0
@@ -8508,10 +8522,12 @@ snapshots:
       '@latticexyz/common': file:../mud/packages/common(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
       '@latticexyz/config': file:../mud/packages/config(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
       '@latticexyz/gas-report': file:../mud/packages/gas-report
+      '@latticexyz/paymaster': file:../mud/packages/paymaster(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
       '@latticexyz/protocol-parser': file:../mud/packages/protocol-parser(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
       '@latticexyz/schema-type': file:../mud/packages/schema-type(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
       '@latticexyz/store': file:../mud/packages/store(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
       '@latticexyz/utils': file:../mud/packages/utils
+      '@latticexyz/wiresaw': file:../mud/packages/wiresaw(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))
       '@latticexyz/world': file:../mud/packages/world(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
       '@latticexyz/world-module-metadata': file:../mud/packages/world-module-metadata(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
       abitype: 1.0.6(typescript@5.4.2)(zod@3.23.8)
@@ -8527,6 +8543,7 @@ snapshots:
       p-queue: 7.4.1
       p-retry: 5.1.2
       path: 0.12.7
+      permissionless: 0.2.13(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))
       rxjs: 7.5.5
       throttle-debounce: 5.0.2
       toposort: 2.0.2
@@ -8537,7 +8554,9 @@ snapshots:
       zod-validation-error: 1.5.0(zod@3.23.8)
     transitivePeerDependencies:
       - aws-crt
+      - bufferutil
       - supports-color
+      - utf-8-validate
 
   '@latticexyz/common@file:../mud/packages/common(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)':
     dependencies:
@@ -8551,6 +8570,7 @@ snapshots:
       prettier: 3.2.5
       prettier-plugin-solidity: 1.3.1(prettier@3.2.5)
       viem: 2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8)
+      webauthn-p256: 0.0.10
     optionalDependencies:
       '@aws-sdk/client-kms': 3.682.0
       asn1.js: 5.4.1
@@ -8580,8 +8600,11 @@ snapshots:
       '@latticexyz/common': file:../mud/packages/common(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
       '@latticexyz/config': file:../mud/packages/config(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
       '@latticexyz/explorer': file:../mud/packages/explorer(@aws-sdk/client-kms@3.682.0)(@babel/core@7.26.0)(@opentelemetry/api@1.9.0)(@tanstack/query-core@5.59.16)(@types/react-dom@18.3.1)(@types/react@18.3.12)(asn1.js@5.4.1)(bufferutil@4.0.8)(kysely@0.26.3)(postcss@8.4.47)(react-native@0.76.1(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(bufferutil@4.0.8)(react@18.3.1)(utf-8-validate@5.0.10))(rollup@4.24.3)(sql.js@1.12.0)(typescript@5.4.2)(utf-8-validate@5.0.10)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))
+      '@latticexyz/id': file:../mud/packages/id
+      '@latticexyz/paymaster': file:../mud/packages/paymaster(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
       '@latticexyz/protocol-parser': file:../mud/packages/protocol-parser(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
       '@latticexyz/store': file:../mud/packages/store(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/wiresaw': file:../mud/packages/wiresaw(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))
       '@latticexyz/world': file:../mud/packages/world(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
       '@latticexyz/world-modules': file:../mud/packages/world-modules(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))
       '@noble/curves': 1.6.0
@@ -8698,7 +8721,7 @@ snapshots:
       wagmi: 2.12.11(@tanstack/query-core@5.59.16)(@tanstack/react-query@5.59.16(react@18.3.1))(@types/react@18.3.12)(bufferutil@4.0.8)(react-dom@18.3.1(react@18.3.1))(react-native@0.76.1(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(bufferutil@4.0.8)(react@18.3.1)(utf-8-validate@5.0.10))(react@18.3.1)(rollup@4.24.3)(typescript@5.4.2)(utf-8-validate@5.0.10)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
       yargs: 17.7.2
       zod: 3.23.8
-      zustand: 4.4.1(@types/react@18.3.12)(react@18.3.1)
+      zustand: 4.5.5(@types/react@18.3.12)(react@18.3.1)
     transitivePeerDependencies:
       - '@aws-sdk/client-kms'
       - '@aws-sdk/client-rds-data'
@@ -8759,6 +8782,28 @@ snapshots:
       strip-ansi: 7.1.0
       table: 6.8.2
       yargs: 17.7.2
+
+  '@latticexyz/id@file:../mud/packages/id':
+    dependencies:
+      '@ark/util': 0.2.2
+      debug: 4.3.7(supports-color@5.5.0)
+      webauthn-p256: 0.0.10
+    transitivePeerDependencies:
+      - supports-color
+
+  '@latticexyz/paymaster@file:../mud/packages/paymaster(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)':
+    dependencies:
+      '@latticexyz/common': file:../mud/packages/common(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/protocol-parser': file:../mud/packages/protocol-parser(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/store': file:../mud/packages/store(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      debug: 4.3.7(supports-color@5.5.0)
+      viem: 2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8)
+    transitivePeerDependencies:
+      - '@aws-sdk/client-kms'
+      - asn1.js
+      - supports-color
+      - typescript
+      - zod
 
   '@latticexyz/protocol-parser@file:../mud/packages/protocol-parser(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)':
     dependencies:
@@ -8889,7 +8934,7 @@ snapshots:
       superjson: 1.13.3
       viem: 2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8)
       zod: 3.23.8
-      zustand: 4.4.1(@types/react@18.3.12)(react@18.3.1)
+      zustand: 4.5.5(@types/react@18.3.12)(react@18.3.1)
     transitivePeerDependencies:
       - '@aws-sdk/client-kms'
       - '@aws-sdk/client-rds-data'
@@ -8939,6 +8984,13 @@ snapshots:
       mobx: 6.13.5
       proxy-deep: 3.1.1
       rxjs: 7.5.5
+
+  '@latticexyz/wiresaw@file:../mud/packages/wiresaw(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))':
+    dependencies:
+      debug: 4.3.7(supports-color@5.5.0)
+      viem: 2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8)
+    transitivePeerDependencies:
+      - supports-color
 
   '@latticexyz/world-module-metadata@file:../mud/packages/world-module-metadata(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)':
     dependencies:
@@ -14102,7 +14154,7 @@ snapshots:
   react-remove-scroll@2.5.7(@types/react@18.3.12)(react@18.3.1):
     dependencies:
       react: 18.3.1
-      react-remove-scroll-bar: 2.3.4(@types/react@18.3.12)(react@18.3.1)
+      react-remove-scroll-bar: 2.3.6(@types/react@18.3.12)(react@18.3.1)
       react-style-singleton: 2.2.1(@types/react@18.3.12)(react@18.3.1)
       tslib: 2.8.0
       use-callback-ref: 1.3.2(@types/react@18.3.12)(react@18.3.1)

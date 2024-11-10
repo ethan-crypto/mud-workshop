@@ -9,4 +9,7 @@ procs:
     shell: pnpm ts-node scripts/localDeployer/index.ts
   deploy-paymaster:
     cwd: ../quarry-paymaster/packages/contracts
-    shell: pnpm mud deploy --salt $(cast from-utf8 "quarry paymaster") && pnpm fund:paymaster:local && pnpm fund:issuer:local
+    shell: pnpm mud deploy --salt 0x && pnpm fund:paymaster:local && pnpm fund:issuer:local
+    env:
+      # Anvil default account (0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266)
+      PRIVATE_KEY: "0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80"

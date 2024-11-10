@@ -1,8 +1,8 @@
 import { useKeyboardMovement } from "./useKeyboardMovement";
 import { useMove } from "./useMove";
-import { stash } from "./stash/stash";
+import { stash } from "./mud/stash";
 import { tables } from "./common";
-import { useRecords } from "./stash/useRecords";
+import { useRecords } from "./mud/useRecords";
 
 export function Map() {
   const move = useMove();

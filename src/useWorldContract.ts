@@ -1,7 +1,7 @@
 import { useClient } from "wagmi";
 import { chainId, worldAbi } from "./common";
 import { getContract } from "viem";
-import { useSync } from "./stash/useSync";
+import { useSync } from "./mud/useSync";
 import { useQuery } from "@tanstack/react-query";
 import {
   useSessionClient,
@@ -14,8 +14,6 @@ export function useWorldContract() {
   const client = useClient({ chainId });
   const { data: sessionClient, status: sessionClientStatus } =
     useSessionClient();
-
-  console.log("sessionClient", sessionClientStatus, sessionClient);
 
   const { data: worldContract } = useQuery({
     queryKey: ["worldContract", worldAddress, client?.uid, sessionClient?.uid],

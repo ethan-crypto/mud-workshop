@@ -14,10 +14,8 @@ procs:
   # bundler:
   #   cwd: ../alto
   #   shell: pnpm ts-node src --config ../mud-workshop/alto.config.json
-  issuer:
-    cwd: ../quarry-paymaster/packages/issuer
-    shell: pnpm build && pnpm start
+  # issuer:
+  #   cwd: ../quarry-paymaster/packages/issuer
+  #   shell: pnpm build && pnpm start
   # explorer:
   #   shell: CHAIN_ID=${VITE_CHAIN_ID} pnpm explorer
-  # tunnel:
-  #   shell: cloudflared tunnel run

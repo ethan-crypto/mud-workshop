@@ -1,8 +1,8 @@
 import { WagmiProvider } from "wagmi";
 import { QueryClientProvider, QueryClient } from "@tanstack/react-query";
 import { ReactNode } from "react";
-import { StashSyncProvider } from "./stash/StashSyncProvider";
-import { stash } from "./stash/stash";
+import { StashSyncProvider } from "./mud/StashSyncProvider";
+import { stash } from "./mud/stash";
 import { Address } from "viem";
 import { defineConfig, EntryKitProvider } from "@latticexyz/entrykit/internal";
 import { wagmiConfig } from "./wagmiConfig";
