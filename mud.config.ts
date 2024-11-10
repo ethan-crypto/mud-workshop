@@ -8,7 +8,7 @@ export default defineWorld({
   },
   tables: {
     Position: {
-      schema: { player: "address", x: "uint32", y: "uint32" },
+      schema: { player: "address", x: "int32", y: "int32" },
       key: ["player"],
     },
   },

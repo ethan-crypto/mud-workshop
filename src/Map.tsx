@@ -8,25 +8,27 @@ export function Map() {
   const move = useMove();
   useKeyboardMovement(move.mutateAsync);
 
-  const width = 100;
-  const height = 100;
-
   const players = useRecords({ stash, table: tables.Position });
 
+  const size = 40;
+  const scale = 100 / size;
+
   return (
-    <div
-      className="relative font-mono whitespace-pre"
-      style={{ width: `${width}em`, height: `${height}em` }}
-    >
-      {Object.values(players).map((position) => (
-        <div
-          key={position.player}
-          className="absolute w-[1em] h-[1em]"
-          style={{ left: `${position.x}em`, top: `${position.y}em` }}
-        >
-          x
-        </div>
-      ))}
+    <div className="p-4" style={{ width: `80vmin`, height: `80vmin` }}>
+      <div className="w-full h-full relative font-mono whitespace-pre border-8">
+        {Object.values(players).map((position) => (
+          <div
+            key={position.player}
+            className="absolute bg-black"
+            style={{
+              width: `${scale}%`,
+              height: `${scale}%`,
+              left: `${(((position.x % size) + size) % size) * scale}%`,
+              top: `${((size - (position.y % size) + size) % size) * scale}%`,
+            }}
+          />
+        ))}
+      </div>
     </div>
   );
 }

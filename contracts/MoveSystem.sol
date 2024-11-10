@@ -12,11 +12,11 @@ contract MoveSystem is System {
     PositionData memory position = Position.get(player);
 
     if (direction == Direction.North) {
-      position.y -= 1;
+      position.y += 1;
     } else if (direction == Direction.East) {
       position.x += 1;
     } else if (direction == Direction.South) {
-      position.y += 1;
+      position.y -= 1;
     } else if (direction == Direction.West) {
       position.x -= 1;
     }
