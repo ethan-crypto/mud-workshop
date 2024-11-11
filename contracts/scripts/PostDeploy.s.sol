@@ -20,6 +20,7 @@ contract PostDeploy is Script {
     IWorld(worldAddress).app__completeTask(id);
 
     IWorld(worldAddress).app__addTask(++id, "add position table");
+    IWorld(worldAddress).app__addTask(++id, "add position table");
     IWorld(worldAddress).app__addTask(++id, "show explorer");
     IWorld(worldAddress).app__addTask(++id, "add move system");
     IWorld(worldAddress).app__addTask(++id, "render players");

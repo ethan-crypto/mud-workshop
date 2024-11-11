@@ -9,17 +9,17 @@ const keys = new Map<KeyboardEvent["key"], Direction>([
 ]);
 
 export const useKeyboardMovement = (
-  move: undefined | ((direction: Direction) => Promise<unknown>)
+  move: undefined | ((direction: Direction) => void)
 ) => {
   useEffect(() => {
     if (!move) return;
 
-    const listener = async (event: KeyboardEvent) => {
+    const listener = (event: KeyboardEvent) => {
       const direction = keys.get(event.key);
       if (direction == null) return;
 
       event.preventDefault();
-      await move(direction);
+      move(direction);
     };
 
     window.addEventListener("keydown", listener);

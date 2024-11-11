@@ -4,18 +4,17 @@ declare const abi: [
     "name": "app__addTask",
     "inputs": [
       {
+        "name": "id",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
         "name": "description",
         "type": "string",
         "internalType": "string"
       }
     ],
-    "outputs": [
-      {
-        "name": "id",
-        "type": "bytes32",
-        "internalType": "bytes32"
-      }
-    ],
+    "outputs": [],
     "stateMutability": "nonpayable"
   },
   {
@@ -24,8 +23,8 @@ declare const abi: [
     "inputs": [
       {
         "name": "id",
-        "type": "bytes32",
-        "internalType": "bytes32"
+        "type": "uint256",
+        "internalType": "uint256"
       }
     ],
     "outputs": [],
@@ -37,8 +36,8 @@ declare const abi: [
     "inputs": [
       {
         "name": "id",
-        "type": "bytes32",
-        "internalType": "bytes32"
+        "type": "uint256",
+        "internalType": "uint256"
       }
     ],
     "outputs": [],
@@ -63,8 +62,8 @@ declare const abi: [
     "inputs": [
       {
         "name": "id",
-        "type": "bytes32",
-        "internalType": "bytes32"
+        "type": "uint256",
+        "internalType": "uint256"
       }
     ],
     "outputs": [],
