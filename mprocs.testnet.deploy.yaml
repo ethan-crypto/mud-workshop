@@ -1,6 +1,6 @@
 procs:
   deploy-contracts:
-    shell: mud deploy --rpc ${RPC_URL}
-  deploy-factory:
-    cwd: ../coinbase-smart-wallet
-    shell: make deploy
+    shell: mud deploy --rpc ${RPC_URL} --smartAccount
+  # deploy-factory:
+  #   cwd: ../coinbase-smart-wallet
+  #   shell: make deploy
