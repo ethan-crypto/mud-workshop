@@ -1,4 +1,4 @@
-import { serialize } from "wagmi";
+import { serialize, useAccount } from "wagmi";
 import { Direction, enums } from "./common";
 import { useKeyboardMovement } from "./useKeyboardMovement";
 import { Address, Hex, hexToBigInt, keccak256 } from "viem";
@@ -30,6 +30,7 @@ const rotateClassName = {
 } as const satisfies Record<Direction, `${"" | "-"}rotate-${number}`>;
 
 export function GameMap({ players = [], onMove }: Props) {
+  const { address: userAddress } = useAccount();
   useKeyboardMovement(onMove);
   return (
     <div className="aspect-square w-full max-w-[40rem]">
@@ -55,16 +56,20 @@ export function GameMap({ players = [], onMove }: Props) {
         {players.map((player) => (
           <div
             key={player.player}
-            className="absolute bg-black"
+            className="absolute bg-current"
             style={{
+              color: `hwb(${getColorAngle(player.player)} 40% 20%)`,
               width: `${scale}%`,
               height: `${scale}%`,
               left: `${((((player.x + size / 2) % size) + size) % size) * scale}%`,
               top: `${((size - ((player.y + size / 2) % size)) % size) * scale}%`,
-              backgroundColor: `hwb(${getColorAngle(player.player)} 40% 20%)`,
             }}
             title={serialize(player, null, 2)}
-          />
+          >
+            {player.player.toLowerCase() === userAddress?.toLowerCase() ? (
+              <div className="w-full h-full bg-current animate-ping opacity-50" />
+            ) : null}
+          </div>
         ))}
       </div>
     </div>
