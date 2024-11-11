@@ -28,12 +28,7 @@ export function App() {
   );
 
   return (
-    <div className="absolute inset-0 grid sm:grid-cols-[16rem_auto]">
-      <div className="p-4 space-y-4">
-        <AccountButton />
-        {isLive ? <Tasks /> : null}
-      </div>
-
+    <div className="absolute inset-0 grid sm:grid-cols-[auto_16rem]">
       <div className="p-4 grid place-items-center">
         {isLive ? (
           <GameMap players={players} onMove={onMove} />
@@ -42,6 +37,11 @@ export function App() {
             {message} ({percentage.toFixed(1)}%)…
           </div>
         )}
+      </div>
+
+      <div className="p-4 space-y-4">
+        <AccountButton />
+        {isLive ? <Tasks /> : null}
       </div>
 
       <Explorer />
