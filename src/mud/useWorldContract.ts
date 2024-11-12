@@ -1,7 +1,7 @@
 import { useClient } from "wagmi";
-import { chainId, worldAbi } from "./common";
+import { chainId, worldAbi } from "../common";
 import { getContract } from "viem";
-import { useSync } from "./mud/useSync";
+import { useSync } from "./useSync";
 import { useQuery } from "@tanstack/react-query";
 import {
   useSessionClient,

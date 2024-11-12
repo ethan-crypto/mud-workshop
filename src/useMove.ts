@@ -1,6 +1,6 @@
 import { useMutation } from "@tanstack/react-query";
-import { Direction, enums } from "./common";
-import { useWorldContract } from "./useWorldContract";
+import { Direction, directions } from "./common";
+import { useWorldContract } from "./mud/useWorldContract";
 
 export function useMove() {
   const { worldContract, waitForTransaction } = useWorldContract();
@@ -16,7 +16,7 @@ export function useMove() {
       console.log("submitting move", direction);
 
       const tx = await worldContract.write.app__move([
-        enums.Direction.indexOf(direction),
+        directions.indexOf(direction),
       ]);
 
       console.log("waiting for move receipt", tx);

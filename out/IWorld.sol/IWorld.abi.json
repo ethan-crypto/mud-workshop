@@ -45,19 +45,6 @@
   },
   {
     "type": "function",
-    "name": "app__move",
-    "inputs": [
-      {
-        "name": "direction",
-        "type": "uint8",
-        "internalType": "enum Direction"
-      }
-    ],
-    "outputs": [],
-    "stateMutability": "nonpayable"
-  },
-  {
-    "type": "function",
     "name": "app__resetTask",
     "inputs": [
       {

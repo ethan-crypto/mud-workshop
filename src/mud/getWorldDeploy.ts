@@ -6,10 +6,12 @@ export async function getWorldDeploy(chainId: number): Promise<{
   blockNumber: bigint | null;
 }> {
   // TODO: figure out how to catch vite:import-analysis error when this file is missing
-  const { default: worlds } = await import("../worlds.json").catch((error) => {
-    console.debug("Could not import worlds.json", error);
-    return { default: null };
-  });
+  const { default: worlds } = await import("../../worlds.json").catch(
+    (error) => {
+      console.debug("Could not import worlds.json", error);
+      return { default: null };
+    }
+  );
   const deploy = worlds?.[`${chainId}`];
   if (!deploy) {
     throw new Error(

@@ -1,9 +1,9 @@
 import { serialize, useAccount } from "wagmi";
-import { Direction, enums } from "./common";
 import { useKeyboardMovement } from "./useKeyboardMovement";
 import { Address, Hex, hexToBigInt, keccak256 } from "viem";
 import { ArrowDownIcon } from "./ui/icons/ArrowDownIcon";
 import { twMerge } from "tailwind-merge";
+import { Direction, directions } from "./common";
 
 export type Props = {
   readonly players?: readonly {
@@ -36,7 +36,7 @@ export function GameMap({ players = [], onMove }: Props) {
     <div className="aspect-square w-full max-w-[40rem]">
       <div className="relative w-full h-full border-8 border-black/10">
         {onMove
-          ? enums.Direction.map((direction) => (
+          ? directions.map((direction) => (
               <button
                 key={direction}
                 title={`Move ${direction.toLowerCase()}`}

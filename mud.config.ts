@@ -3,9 +3,6 @@ import { defineWorld } from "@latticexyz/world";
 export default defineWorld({
   sourceDirectory: "contracts",
   namespace: "app",
-  enums: {
-    Direction: ["North", "East", "South", "West"],
-  },
   tables: {
     Tasks: {
       schema: {
@@ -15,10 +12,6 @@ export default defineWorld({
         description: "string",
       },
       key: ["id"],
-    },
-    Position: {
-      schema: { player: "address", x: "int32", y: "int32" },
-      key: ["player"],
     },
   },
   modules: [

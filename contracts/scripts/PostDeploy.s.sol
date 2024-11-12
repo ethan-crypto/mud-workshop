@@ -17,9 +17,8 @@ contract PostDeploy is Script {
 
     uint256 id = 0;
     IWorld(worldAddress).app__addTask(++id, "start new project");
-    IWorld(worldAddress).app__completeTask(id);
+    // IWorld(worldAddress).app__completeTask(id);
 
-    IWorld(worldAddress).app__addTask(++id, "add position table");
     IWorld(worldAddress).app__addTask(++id, "add position table");
     IWorld(worldAddress).app__addTask(++id, "show explorer");
     IWorld(worldAddress).app__addTask(++id, "add move system");

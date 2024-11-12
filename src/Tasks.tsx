@@ -1,15 +1,18 @@
 import { serialize, useConfig } from "wagmi";
-import { tables } from "./common";
 import { stash } from "./mud/stash";
 import { useRecords } from "./mud/useRecords";
-import { useWorldContract } from "./useWorldContract";
+import { useWorldContract } from "./mud/useWorldContract";
 import { waitForTransactionReceipt } from "wagmi/actions";
 import { twMerge } from "tailwind-merge";
+import mudConfig from "../mud.config";
 
 export function Tasks() {
   const wagmiConfig = useConfig();
   const { worldContract } = useWorldContract();
-  const tasks = useRecords({ stash, table: tables.Tasks });
+  const tasks = useRecords({
+    stash,
+    table: mudConfig.namespaces.app.tables.Tasks,
+  });
   return (
     <div className="font-mono whitespace-pre select-none">
       TODO{"\n"}
