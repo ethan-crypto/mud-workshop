@@ -14,7 +14,10 @@ contract PostDeploy is Script {
 
     vm.startBroadcast(deployerPrivateKey);
 
-    // todo
+    // TODO: deploy verifier and npc
+    //
+    // NPC npc = new NPC(IWorld(worldAddress), verifier, target);
+    // console.log(address(npc));
 
     vm.stopBroadcast();
   }
