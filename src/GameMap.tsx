@@ -61,8 +61,8 @@ export function GameMap({ players = [], onMove }: Props) {
               color: `hwb(${getColorAngle(player.player)} 40% 20%)`,
               width: `${scale}%`,
               height: `${scale}%`,
-              left: `${((((player.x + size / 2) % size) + size) % size) * scale}%`,
-              top: `${((size - ((player.y + size / 2) % size)) % size) * scale}%`,
+              left: `${player.x * scale}%`,
+              top: `${player.y * scale}%`,
             }}
             title={serialize(player, null, 2)}
           >

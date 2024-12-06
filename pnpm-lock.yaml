@@ -12,38 +12,38 @@ importers:
         specifier: ^0.18.0
         version: 0.18.0
       '@latticexyz/common':
-        specifier: 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70
-        version: 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+        specifier: 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210
+        version: 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
       '@latticexyz/config':
-        specifier: 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70
-        version: 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+        specifier: 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210
+        version: 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
       '@latticexyz/entrykit':
-        specifier: 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70
-        version: 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(6ryymuamyizo2nrvjlkeccuw7a)
+        specifier: 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210
+        version: 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(6ryymuamyizo2nrvjlkeccuw7a)
       '@latticexyz/explorer':
-        specifier: 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70
-        version: 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(@babel/core@7.26.0)(@opentelemetry/api@1.9.0)(@tanstack/query-core@5.59.16)(@types/react-dom@18.3.1)(@types/react@18.3.12)(asn1.js@5.4.1)(bufferutil@4.0.8)(kysely@0.26.3)(postcss@8.4.47)(react-native@0.76.1(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(bufferutil@4.0.8)(react@18.3.1)(utf-8-validate@5.0.10))(rollup@4.24.3)(sql.js@1.12.0)(typescript@5.4.2)(utf-8-validate@5.0.10)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))
+        specifier: 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210
+        version: 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(@babel/core@7.26.0)(@opentelemetry/api@1.9.0)(@tanstack/query-core@5.59.16)(@types/react-dom@18.3.1)(@types/react@18.3.12)(asn1.js@5.4.1)(bufferutil@4.0.8)(kysely@0.26.3)(postcss@8.4.47)(react-native@0.76.1(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(bufferutil@4.0.8)(react@18.3.1)(utf-8-validate@5.0.10))(rollup@4.24.3)(sql.js@1.12.0)(typescript@5.4.2)(utf-8-validate@5.0.10)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))
       '@latticexyz/protocol-parser':
-        specifier: 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70
-        version: 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+        specifier: 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210
+        version: 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
       '@latticexyz/schema-type':
-        specifier: 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70
-        version: 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+        specifier: 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210
+        version: 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
       '@latticexyz/stash':
-        specifier: 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70
-        version: 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(react@18.3.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+        specifier: 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210
+        version: 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(react@18.3.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
       '@latticexyz/store':
-        specifier: 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70
-        version: 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+        specifier: 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210
+        version: 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
       '@latticexyz/store-sync':
-        specifier: 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70
-        version: 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(@opentelemetry/api@1.9.0)(@types/react@18.3.12)(asn1.js@5.4.1)(better-sqlite3@8.7.0)(react@18.3.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))
+        specifier: 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210
+        version: 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(@opentelemetry/api@1.9.0)(@types/react@18.3.12)(asn1.js@5.4.1)(better-sqlite3@8.7.0)(react@18.3.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))
       '@latticexyz/world':
-        specifier: 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70
-        version: 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+        specifier: 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210
+        version: 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
       '@latticexyz/world-modules':
-        specifier: 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70
-        version: 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))
+        specifier: 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210
+        version: 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))
       '@tanstack/react-query':
         specifier: ^5.56.2
         version: 5.59.16(react@18.3.1)
@@ -73,8 +73,8 @@ importers:
         specifier: ^9.9.0
         version: 9.13.0
       '@latticexyz/cli':
-        specifier: 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70
-        version: 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(bufferutil@4.0.8)(utf-8-validate@5.0.10)
+        specifier: 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210
+        version: 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(bufferutil@4.0.8)(utf-8-validate@5.0.10)
       '@types/react':
         specifier: ^18.2.0
         version: 18.3.12
@@ -1379,21 +1379,21 @@ packages:
     resolution: {integrity: sha512-sYcHglGKTxGF+hQ6x67xDfkE9o+NhVlRHBqq6gLywaMc6CojK/5vFZByphdonKinYlMLkEkacm+HEse9HzwgTA==}
     engines: {node: '>= 12'}
 
-  '@latticexyz/abi-ts@2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70':
-    resolution: {integrity: sha512-QUhgi3RJhjX288oIBpIuUWqn5QrmssbytKcioFkhVpMVaxZC+2QbRoqhZTicCGPTIty7HSHmfIS/XH57oq2HLw==}
+  '@latticexyz/abi-ts@2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210':
+    resolution: {integrity: sha512-dz2vNvDy6B5oTaF81lpI+vSQgZDNAbMU8yYV8844igZsrC+E+mhn7VVlXy9svzeUiW/INOo3dreFMTtav78O1A==}
     hasBin: true
 
-  '@latticexyz/block-logs-stream@2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70':
-    resolution: {integrity: sha512-EvD848XOVscGBeMk0Mv+M6bDZSjyJGqH0P/ikRV+qZFj6zFUEUhg+8opSTwXm4vW0TXgZ3QLEbE1Lvyt0Q50hw==}
+  '@latticexyz/block-logs-stream@2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210':
+    resolution: {integrity: sha512-Zl3imzcLl+iuHpZikZQQcqfnmhwaHKOK7YJh9EQQC07UKI524Xu6hkVTJ6/jvXIirgRc1u8g7OKO1ltViv0KIg==}
     peerDependencies:
       viem: 2.x
 
-  '@latticexyz/cli@2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70':
-    resolution: {integrity: sha512-dUX1NgWktCTvZqRRRZP5SAer6/aYHn6hd4f92hHSntIA5iAWPYzUpJlhYdbqpVOrrXgR7fyFILYL1rtGvlOrLA==}
+  '@latticexyz/cli@2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210':
+    resolution: {integrity: sha512-LdOofqDT80Iqsy15RpwzrsxTq5e9m5gLk43zk7MXDC+U5WhvK+Sxy3f5sB71uux1cCnr5Mr+f5FaZUhvEKDyTQ==}
     hasBin: true
 
-  '@latticexyz/common@2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70':
-    resolution: {integrity: sha512-1e0v/kyhKhsk/TBC2A67sAFJ3tQZ+L45AfzRSkfTAha2eos/Gte7dbpYfs2T2ef9DvhlEUCTGXXQiCpAKWvZww==}
+  '@latticexyz/common@2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210':
+    resolution: {integrity: sha512-c/MeHaPm+m7MDBnmtIOFxu0v5i6ZsbSkot4zFcoIRcIuJYDIwYDexlkYCCZyQhB2N/Lw4qJPmNTOdzYjEYpyTg==}
     peerDependencies:
       '@aws-sdk/client-kms': 3.x
       asn1.js: 5.x
@@ -1404,13 +1404,13 @@ packages:
       asn1.js:
         optional: true
 
-  '@latticexyz/config@2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70':
-    resolution: {integrity: sha512-9wM3/wAhH7ShwKKUbYFkKb7hVh9e1huJUpgtxK3Lm1SjZsmxKV5mMiTFci5V3zIKsNKxPCcUsDDovJOZtjfIsw==}
+  '@latticexyz/config@2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210':
+    resolution: {integrity: sha512-UlcbMpU2rYMu/Bvb6JHvDZR8/A5fZCR3/aiDYg3/vv849Z6ikxK7Sp/B5UUFyQzjeJHI66SRhq3DY7HgIgYbog==}
     peerDependencies:
       viem: 2.x
 
-  '@latticexyz/entrykit@2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70':
-    resolution: {integrity: sha512-tv6bPvOA31Hfy9Wr5vBYd/BBNj6F1+k+RRvVF8xfX8rfvc5xZQdJX4ugDJ20xwfEDv3LWg1zpXXLdZxugdt2ew==}
+  '@latticexyz/entrykit@2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210':
+    resolution: {integrity: sha512-K8TuYYoylM7rT+Jo+QUST4AEWWwB+ZushuD91m5T2qnnn/dbybtsB3wdVDNA1zN+N4Acoh95+9bCsgKMpmcHLg==}
     peerDependencies:
       '@tanstack/react-query': 5.x
       react: 18.x
@@ -1418,79 +1418,79 @@ packages:
       viem: 2.x
       wagmi: 2.x
 
-  '@latticexyz/explorer@2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70':
-    resolution: {integrity: sha512-yYCvdUVabrfnCY1iqlVQQC3d9vrUEY96aApXHodex/RfxaCJjKDxEWR13YER8XZBCUWvXXQuY/Xw43MjNLbIPw==}
+  '@latticexyz/explorer@2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210':
+    resolution: {integrity: sha512-8DWxhxmYYRpfevaPJvPm2Rmvf3HkDI5sPuw1LnUoEPtmJRXb9pwAtiZho60sJuKllo5MnpvuaCkkA/IzbSZCCw==}
     engines: {node: 18.x || 20.x, pnpm: ^9.6.0}
     hasBin: true
     peerDependencies:
       viem: 2.x
 
-  '@latticexyz/gas-report@2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70':
-    resolution: {integrity: sha512-UuG9lNPBKJQ2loZJvklmY/E5AsL8v21SJZF9QWiMKvTFC9PhtLT/1HqX2yx0EZFbgDTeOFI93cLtQEh/Hi6P0w==}
+  '@latticexyz/gas-report@2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210':
+    resolution: {integrity: sha512-Fcbo+v8cpxDwyZ3QrRsxvZWuFuKaEHyrxdbNUDdcBkteHivT/b5L7HDDOdalLrHZ6T+DV/Z58ZqfonsFdKZWGQ==}
     hasBin: true
 
-  '@latticexyz/id@2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70':
-    resolution: {integrity: sha512-xOP5Dcbm6gECqqvseJ9warVoLKpwX/SMMIAeiBv8PtMkadGQ5Vgqipx6Z/NGCAhpzmxYEyw9G/imFYZ7iFMa/A==}
+  '@latticexyz/id@2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210':
+    resolution: {integrity: sha512-oBcsy7HBGJC4HINWGra/Zzdsew+0LMSYoVRaowqzt+5IvxtOZM2YKTs9Y5roNYqgKCfDNKDe5PapJLOYVOIabw==}
 
-  '@latticexyz/paymaster@2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70':
-    resolution: {integrity: sha512-SPSWHoAJgIBaNwRplaThTBnwi7ekc/Gjm6eMsdCkkohyAQng/8sMsGMvkyJBz6I//R0p3JUF6UFwynk42SxHIw==}
+  '@latticexyz/paymaster@2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210':
+    resolution: {integrity: sha512-3jwkiCMQQkEGTqDwbONaJJBY2wG8AYdT3q2+gDExGA7orIyU8XsqSaLtiLeoWFDkBiadSvqM6rDW3T6kTgj7wA==}
     peerDependencies:
       viem: 2.x
 
-  '@latticexyz/protocol-parser@2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70':
-    resolution: {integrity: sha512-aatczs/9LefWAm9uuWZtJdQnqBcpaI/RrgcAbI5+oLAaR8xmKmhHUTgYqalvtc+4sGRSpBsXlkTGW7DJwsVRSg==}
+  '@latticexyz/protocol-parser@2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210':
+    resolution: {integrity: sha512-sOrCCot28sF5BbOjqujHQHbjFPHK+E3Fh97Pppv0oEvhxOShxoXyOB1Sr3/Eav8443jm61RSSIpEIyiQwIsBgA==}
     peerDependencies:
       viem: 2.x
 
-  '@latticexyz/recs@2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70':
-    resolution: {integrity: sha512-UeztbJNFMjUT/2uwUSP+DJq8YOvUlnh84cP0lKW1QA/R8PTTqhABVbRNciZmFgtJoZZ+1KL5tdj/HTjL74GA0w==}
+  '@latticexyz/recs@2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210':
+    resolution: {integrity: sha512-KJnKIIwgkJMUMQPF7Pl75Tk10wSF78ZQQ99aAWFz9k+bQkUzs8oVtv15kFiim2z7sSdfetx7NQjuTU/vkZcVxg==}
 
-  '@latticexyz/schema-type@2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70':
-    resolution: {integrity: sha512-kxUOYcs2THefc2VP0DMV9NGYXLLtfEDcXUznuO1n/y6xUYc19VXvccjmUCwX6enW41Ktpa3hiwVJDdxfh/AY1A==}
+  '@latticexyz/schema-type@2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210':
+    resolution: {integrity: sha512-exHL49suVPtaL/wP9kr+8bw+1PppDab6ybZ6lotWzatyNxn2UBVLI1baeALcfHexYU7lv2iuEG5RifEctzwAww==}
     peerDependencies:
       viem: 2.x
 
-  '@latticexyz/stash@2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70':
-    resolution: {integrity: sha512-aM+5bO6yJJWzQFIT5kutcpbs8G1W5cQvRpFAy6jboEG+pPYNOsZPNO3QP7RS6atcHZllLE7ZMfajxK+MOvKMeQ==}
+  '@latticexyz/stash@2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210':
+    resolution: {integrity: sha512-A1d5bZ4GurNZocbqau/VQV+Lvoh0WlsjVPnE0SEkj4uRrToOv6Jp8OjFuLjgAgzWcpsNfIK4BtQv50/T8/Sd5A==}
     peerDependencies:
       react: 18.x
       viem: 2.x
 
-  '@latticexyz/store-indexer@2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70':
-    resolution: {integrity: sha512-uzo8nlI3DAkZEf4OwF4TeVcjQX/N+txCB02Byehv6YlURKZTAm3kVQBk97NDeDWN+YHRP36qtRV33UCnDQgDmg==}
+  '@latticexyz/store-indexer@2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210':
+    resolution: {integrity: sha512-xYXxD2usvC2bhImuMekilpI9HF834sc88mosiM4yOvwsHkXBZecnD+DI1Ri4eNn4HwE4cc2FStnVhdGPksK0Fg==}
     hasBin: true
     peerDependencies:
       viem: 2.x
 
-  '@latticexyz/store-sync@2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70':
-    resolution: {integrity: sha512-V6M+a4pHyK+qmtzi//yumADmVL2cDZLrFQYFvNvJKFirnYT3YGX8zk++1U8xG4eS+D3+uZf/VSEZNpCRUd8x/A==}
+  '@latticexyz/store-sync@2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210':
+    resolution: {integrity: sha512-BaduEPD/TJuajszQIuHo5KUe6+mJUTVda7KL0r8ulZ/YcFbaRHMyi3CBEa5NVxZxgaGVo836K9kR5N+wl8jVlw==}
     peerDependencies:
       viem: 2.x
 
-  '@latticexyz/store@2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70':
-    resolution: {integrity: sha512-2k7hZ5fjtucvmMJ1lf9T6kaeNt73n5UnPmBrNSVIvWH9tvq8x7DWt+BobzgVwHQFOMQeHFakPrswludYeV1RjQ==}
+  '@latticexyz/store@2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210':
+    resolution: {integrity: sha512-+J75g2NJYEJfdaSdX5F3bjMhbQh3qspjsyzh9RVyFYwEb9YYtFRwNyZfOai89zAO9nERLlAIXOm8fe4JBnhGAA==}
     peerDependencies:
       viem: 2.x
     peerDependenciesMeta:
       viem:
         optional: true
 
-  '@latticexyz/utils@2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70':
-    resolution: {integrity: sha512-9iPwt3nww4AthqhuFn4JpRkYioFIam+FEQoO2ltsA+ddj0eWB+84ZpnS2D/lx1Kk/VM2MRmJ38NWx0EC6Quu9Q==}
+  '@latticexyz/utils@2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210':
+    resolution: {integrity: sha512-WDsKAekQVAdLo4hnYXOnAuJ5gPs4YdSbuiPGeTQ83d0eoiFsPhfxEMerkVaJJ0vIcviMIogjoOC/R6uiP/WzCg==}
 
-  '@latticexyz/wiresaw@2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70':
-    resolution: {integrity: sha512-8i/arE2Qqjag4P8geCK+v/eEQhQvXKzi5sQj4HLeK2QG/DZEeZ0fLlHkiy2KVXp5hQfJj9rWVutaTUEybC5IxA==}
+  '@latticexyz/wiresaw@2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210':
+    resolution: {integrity: sha512-lBP/VvcS6ffaMY4sFW+JJM6sJi5Max09er9Nvff+JvLPfogCmMTV7sEZcEkpw56H+OH+JwrsGMBPBfStL5zkjA==}
     peerDependencies:
       viem: 2.x
 
-  '@latticexyz/world-module-metadata@2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70':
-    resolution: {integrity: sha512-rHOVP14HsB59AQrHf/JgQyMe8b5kU2heTg1EPoCce/8SwgCLXw4cO6Rb5R3fk2xc0/BYAL0MtODyOa87Kyp95g==}
+  '@latticexyz/world-module-metadata@2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210':
+    resolution: {integrity: sha512-wgzfHxuZx8np4gpGJovH7DthXaG4miUJsVyDgebpIwV5SNJpO1bM8AfOH1g9tEAIa9JBwobdNrPt6Ii+GsHPAg==}
 
-  '@latticexyz/world-modules@2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70':
-    resolution: {integrity: sha512-IoBYtU0p9i7/vZQ+2nri+uhwsR4yv8+cTLpDTPv/QrP0oJn1DiXhWu3y15WOaSthOkA95SV2Ai92iQMjiwYmXg==}
+  '@latticexyz/world-modules@2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210':
+    resolution: {integrity: sha512-yB1LqmkCT7UPNdB65MxS3nhSgwDutgqOxd6xMM2yFLJJ5LWlqWZp/lka1fFGgQ2UJswYOc3rdx9U8aGD5E02vQ==}
 
-  '@latticexyz/world@2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70':
-    resolution: {integrity: sha512-Ma48TgRgwUYncl+Y1asnPDQjqKqpQWpOCFtIju2Mghd2aIdyoLt2XVGfJj22M2tdRdU06I1ZAfZps8S0u2ODIA==}
+  '@latticexyz/world@2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210':
+    resolution: {integrity: sha512-RUsc0hZDsCAjehrbnMPAoQHaWVNcqdcpd6/dttY77jEfk6BhTV+nESULdYasMGm3RXxWXyBR510CWkrAxi4uGA==}
     peerDependencies:
       viem: 2.x
     peerDependenciesMeta:
@@ -8466,7 +8466,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@latticexyz/abi-ts@2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70':
+  '@latticexyz/abi-ts@2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210':
     dependencies:
       chalk: 5.3.0
       debug: 4.3.7(supports-color@5.5.0)
@@ -8476,9 +8476,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@latticexyz/block-logs-stream@2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)':
+  '@latticexyz/block-logs-stream@2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)':
     dependencies:
-      '@latticexyz/common': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/common': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
       debug: 4.3.7(supports-color@5.5.0)
       rxjs: 7.5.5
       viem: 2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8)
@@ -8489,23 +8489,23 @@ snapshots:
       - typescript
       - zod
 
-  '@latticexyz/cli@2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(bufferutil@4.0.8)(utf-8-validate@5.0.10)':
+  '@latticexyz/cli@2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(bufferutil@4.0.8)(utf-8-validate@5.0.10)':
     dependencies:
       '@ark/util': 0.2.2
       '@aws-sdk/client-kms': 3.682.0
-      '@latticexyz/abi-ts': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70
-      '@latticexyz/block-logs-stream': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
-      '@latticexyz/common': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
-      '@latticexyz/config': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
-      '@latticexyz/gas-report': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70
-      '@latticexyz/paymaster': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
-      '@latticexyz/protocol-parser': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
-      '@latticexyz/schema-type': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
-      '@latticexyz/store': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
-      '@latticexyz/utils': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70
-      '@latticexyz/wiresaw': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))
-      '@latticexyz/world': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
-      '@latticexyz/world-module-metadata': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/abi-ts': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210
+      '@latticexyz/block-logs-stream': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/common': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/config': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/gas-report': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210
+      '@latticexyz/paymaster': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/protocol-parser': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/schema-type': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/store': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/utils': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210
+      '@latticexyz/wiresaw': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))
+      '@latticexyz/world': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/world-module-metadata': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
       abitype: 1.0.6(typescript@5.4.2)(zod@3.23.8)
       asn1.js: 5.4.1
       chalk: 5.3.0
@@ -8534,9 +8534,9 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@latticexyz/common@2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)':
+  '@latticexyz/common@2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)':
     dependencies:
-      '@latticexyz/schema-type': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/schema-type': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
       '@solidity-parser/parser': 0.16.2
       abitype: 1.0.6(typescript@5.4.2)(zod@3.23.8)
       debug: 4.3.7(supports-color@5.5.0)
@@ -8555,11 +8555,11 @@ snapshots:
       - typescript
       - zod
 
-  '@latticexyz/config@2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)':
+  '@latticexyz/config@2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)':
     dependencies:
       '@ark/util': 0.2.2
-      '@latticexyz/common': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
-      '@latticexyz/schema-type': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/common': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/schema-type': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
       esbuild: 0.17.19
       find-up: 6.3.0
       viem: 2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8)
@@ -8570,19 +8570,19 @@ snapshots:
       - typescript
       - zod
 
-  '@latticexyz/entrykit@2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(6ryymuamyizo2nrvjlkeccuw7a)':
+  '@latticexyz/entrykit@2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(6ryymuamyizo2nrvjlkeccuw7a)':
     dependencies:
       '@ark/util': 0.2.2
-      '@latticexyz/common': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
-      '@latticexyz/config': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
-      '@latticexyz/explorer': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(@babel/core@7.26.0)(@opentelemetry/api@1.9.0)(@tanstack/query-core@5.59.16)(@types/react-dom@18.3.1)(@types/react@18.3.12)(asn1.js@5.4.1)(bufferutil@4.0.8)(kysely@0.26.3)(postcss@8.4.47)(react-native@0.76.1(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(bufferutil@4.0.8)(react@18.3.1)(utf-8-validate@5.0.10))(rollup@4.24.3)(sql.js@1.12.0)(typescript@5.4.2)(utf-8-validate@5.0.10)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))
-      '@latticexyz/id': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70
-      '@latticexyz/paymaster': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
-      '@latticexyz/protocol-parser': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
-      '@latticexyz/store': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
-      '@latticexyz/wiresaw': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))
-      '@latticexyz/world': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
-      '@latticexyz/world-modules': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))
+      '@latticexyz/common': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/config': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/explorer': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(@babel/core@7.26.0)(@opentelemetry/api@1.9.0)(@tanstack/query-core@5.59.16)(@types/react-dom@18.3.1)(@types/react@18.3.12)(asn1.js@5.4.1)(bufferutil@4.0.8)(kysely@0.26.3)(postcss@8.4.47)(react-native@0.76.1(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(bufferutil@4.0.8)(react@18.3.1)(utf-8-validate@5.0.10))(rollup@4.24.3)(sql.js@1.12.0)(typescript@5.4.2)(utf-8-validate@5.0.10)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))
+      '@latticexyz/id': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210
+      '@latticexyz/paymaster': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/protocol-parser': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/store': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/wiresaw': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))
+      '@latticexyz/world': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/world-modules': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))
       '@noble/curves': 1.6.0
       '@radix-ui/react-dialog': 1.1.2(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@rainbow-me/rainbowkit': 2.1.7(@tanstack/react-query@5.59.16(react@18.3.1))(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(wagmi@2.12.11(@tanstack/query-core@5.59.16)(@tanstack/react-query@5.59.16(react@18.3.1))(@types/react@18.3.12)(bufferutil@4.0.8)(react-dom@18.3.1(react@18.3.1))(react-native@0.76.1(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(bufferutil@4.0.8)(react@18.3.1)(utf-8-validate@5.0.10))(react@18.3.1)(rollup@4.24.3)(typescript@5.4.2)(utf-8-validate@5.0.10)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8))
@@ -8651,18 +8651,18 @@ snapshots:
       - utf-8-validate
       - zod
 
-  '@latticexyz/explorer@2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(@babel/core@7.26.0)(@opentelemetry/api@1.9.0)(@tanstack/query-core@5.59.16)(@types/react-dom@18.3.1)(@types/react@18.3.12)(asn1.js@5.4.1)(bufferutil@4.0.8)(kysely@0.26.3)(postcss@8.4.47)(react-native@0.76.1(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(bufferutil@4.0.8)(react@18.3.1)(utf-8-validate@5.0.10))(rollup@4.24.3)(sql.js@1.12.0)(typescript@5.4.2)(utf-8-validate@5.0.10)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))':
+  '@latticexyz/explorer@2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(@babel/core@7.26.0)(@opentelemetry/api@1.9.0)(@tanstack/query-core@5.59.16)(@types/react-dom@18.3.1)(@types/react@18.3.12)(asn1.js@5.4.1)(bufferutil@4.0.8)(kysely@0.26.3)(postcss@8.4.47)(react-native@0.76.1(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(bufferutil@4.0.8)(react@18.3.1)(utf-8-validate@5.0.10))(rollup@4.24.3)(sql.js@1.12.0)(typescript@5.4.2)(utf-8-validate@5.0.10)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))':
     dependencies:
       '@hookform/resolvers': 3.9.1(react-hook-form@7.53.1(react@18.3.1))
-      '@latticexyz/block-logs-stream': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
-      '@latticexyz/common': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
-      '@latticexyz/config': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
-      '@latticexyz/protocol-parser': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
-      '@latticexyz/schema-type': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
-      '@latticexyz/store': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
-      '@latticexyz/store-indexer': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(@opentelemetry/api@1.9.0)(@types/react@18.3.12)(asn1.js@5.4.1)(kysely@0.26.3)(react@18.3.1)(sql.js@1.12.0)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))
-      '@latticexyz/store-sync': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(@opentelemetry/api@1.9.0)(@types/react@18.3.12)(asn1.js@5.4.1)(better-sqlite3@8.7.0)(react@18.3.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))
-      '@latticexyz/world': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/block-logs-stream': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/common': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/config': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/protocol-parser': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/schema-type': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/store': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/store-indexer': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(@opentelemetry/api@1.9.0)(@types/react@18.3.12)(asn1.js@5.4.1)(kysely@0.26.3)(react@18.3.1)(sql.js@1.12.0)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))
+      '@latticexyz/store-sync': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(@opentelemetry/api@1.9.0)(@types/react@18.3.12)(asn1.js@5.4.1)(better-sqlite3@8.7.0)(react@18.3.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))
+      '@latticexyz/world': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
       '@monaco-editor/react': 4.6.0(monaco-editor@0.52.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@radix-ui/react-checkbox': 1.1.2(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@radix-ui/react-dialog': 1.1.2(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -8749,7 +8749,7 @@ snapshots:
       - typescript
       - utf-8-validate
 
-  '@latticexyz/gas-report@2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70':
+  '@latticexyz/gas-report@2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210':
     dependencies:
       chalk: 5.3.0
       dotenv: 16.4.5
@@ -8759,7 +8759,7 @@ snapshots:
       table: 6.8.2
       yargs: 17.7.2
 
-  '@latticexyz/id@2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70':
+  '@latticexyz/id@2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210':
     dependencies:
       '@ark/util': 0.2.2
       debug: 4.3.7(supports-color@5.5.0)
@@ -8767,11 +8767,11 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@latticexyz/paymaster@2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)':
+  '@latticexyz/paymaster@2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)':
     dependencies:
-      '@latticexyz/common': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
-      '@latticexyz/protocol-parser': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
-      '@latticexyz/store': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/common': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/protocol-parser': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/store': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
       debug: 4.3.7(supports-color@5.5.0)
       viem: 2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8)
     transitivePeerDependencies:
@@ -8781,11 +8781,11 @@ snapshots:
       - typescript
       - zod
 
-  '@latticexyz/protocol-parser@2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)':
+  '@latticexyz/protocol-parser@2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)':
     dependencies:
-      '@latticexyz/common': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
-      '@latticexyz/config': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
-      '@latticexyz/schema-type': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/common': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/config': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/schema-type': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
       abitype: 1.0.6(typescript@5.4.2)(zod@3.23.8)
       viem: 2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8)
     transitivePeerDependencies:
@@ -8795,10 +8795,10 @@ snapshots:
       - typescript
       - zod
 
-  '@latticexyz/recs@2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)':
+  '@latticexyz/recs@2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)':
     dependencies:
-      '@latticexyz/schema-type': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
-      '@latticexyz/utils': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70
+      '@latticexyz/schema-type': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/utils': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210
       mobx: 6.13.5
       rxjs: 7.5.5
     transitivePeerDependencies:
@@ -8806,7 +8806,7 @@ snapshots:
       - viem
       - zod
 
-  '@latticexyz/schema-type@2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)':
+  '@latticexyz/schema-type@2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)':
     dependencies:
       abitype: 1.0.6(typescript@5.4.2)(zod@3.23.8)
       viem: 2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8)
@@ -8814,14 +8814,14 @@ snapshots:
       - typescript
       - zod
 
-  '@latticexyz/stash@2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(react@18.3.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)':
+  '@latticexyz/stash@2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(react@18.3.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)':
     dependencies:
       '@ark/util': 0.2.2
-      '@latticexyz/common': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
-      '@latticexyz/config': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
-      '@latticexyz/protocol-parser': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
-      '@latticexyz/schema-type': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
-      '@latticexyz/store': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/common': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/config': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/protocol-parser': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/schema-type': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/store': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
       react: 18.3.1
       viem: 2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8)
     transitivePeerDependencies:
@@ -8831,15 +8831,15 @@ snapshots:
       - typescript
       - zod
 
-  '@latticexyz/store-indexer@2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(@opentelemetry/api@1.9.0)(@types/react@18.3.12)(asn1.js@5.4.1)(kysely@0.26.3)(react@18.3.1)(sql.js@1.12.0)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))':
+  '@latticexyz/store-indexer@2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(@opentelemetry/api@1.9.0)(@types/react@18.3.12)(asn1.js@5.4.1)(kysely@0.26.3)(react@18.3.1)(sql.js@1.12.0)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))':
     dependencies:
       '@koa/cors': 4.0.0
       '@koa/router': 12.0.2
-      '@latticexyz/block-logs-stream': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
-      '@latticexyz/common': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
-      '@latticexyz/protocol-parser': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
-      '@latticexyz/store': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
-      '@latticexyz/store-sync': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(@opentelemetry/api@1.9.0)(@types/react@18.3.12)(asn1.js@5.4.1)(better-sqlite3@8.7.0)(react@18.3.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))
+      '@latticexyz/block-logs-stream': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/common': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/protocol-parser': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/store': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/store-sync': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(@opentelemetry/api@1.9.0)(@types/react@18.3.12)(asn1.js@5.4.1)(better-sqlite3@8.7.0)(react@18.3.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))
       '@sentry/node': 7.119.2
       '@sentry/profiling-node': 1.3.5(@sentry/node@7.119.2)
       '@sentry/utils': 7.119.2
@@ -8885,18 +8885,18 @@ snapshots:
       - supports-color
       - typescript
 
-  '@latticexyz/store-sync@2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(@opentelemetry/api@1.9.0)(@types/react@18.3.12)(asn1.js@5.4.1)(better-sqlite3@8.7.0)(react@18.3.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))':
+  '@latticexyz/store-sync@2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(@opentelemetry/api@1.9.0)(@types/react@18.3.12)(asn1.js@5.4.1)(better-sqlite3@8.7.0)(react@18.3.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))':
     dependencies:
       '@ark/util': 0.2.2
-      '@latticexyz/block-logs-stream': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
-      '@latticexyz/common': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
-      '@latticexyz/config': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
-      '@latticexyz/protocol-parser': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
-      '@latticexyz/recs': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
-      '@latticexyz/schema-type': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
-      '@latticexyz/stash': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(react@18.3.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
-      '@latticexyz/store': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
-      '@latticexyz/world': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/block-logs-stream': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/common': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/config': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/protocol-parser': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/recs': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/schema-type': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/stash': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(react@18.3.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/store': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/world': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
       '@trpc/client': 10.34.0(@trpc/server@10.34.0)
       '@trpc/server': 10.34.0
       change-case: 5.4.4
@@ -8936,13 +8936,13 @@ snapshots:
       - supports-color
       - typescript
 
-  '@latticexyz/store@2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)':
+  '@latticexyz/store@2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)':
     dependencies:
       '@ark/util': 0.2.2
-      '@latticexyz/common': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
-      '@latticexyz/config': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
-      '@latticexyz/protocol-parser': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
-      '@latticexyz/schema-type': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/common': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/config': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/protocol-parser': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/schema-type': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
       abitype: 1.0.6(typescript@5.4.2)(zod@3.23.8)
       arktype: 2.0.0-beta.6
       debug: 4.3.7(supports-color@5.5.0)
@@ -8955,24 +8955,24 @@ snapshots:
       - typescript
       - zod
 
-  '@latticexyz/utils@2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70':
+  '@latticexyz/utils@2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210':
     dependencies:
       mobx: 6.13.5
       proxy-deep: 3.1.1
       rxjs: 7.5.5
 
-  '@latticexyz/wiresaw@2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))':
+  '@latticexyz/wiresaw@2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))':
     dependencies:
       debug: 4.3.7(supports-color@5.5.0)
       viem: 2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8)
     transitivePeerDependencies:
       - supports-color
 
-  '@latticexyz/world-module-metadata@2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)':
+  '@latticexyz/world-module-metadata@2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)':
     dependencies:
-      '@latticexyz/schema-type': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
-      '@latticexyz/store': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
-      '@latticexyz/world': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/schema-type': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/store': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/world': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
     transitivePeerDependencies:
       - '@aws-sdk/client-kms'
       - asn1.js
@@ -8981,13 +8981,13 @@ snapshots:
       - viem
       - zod
 
-  '@latticexyz/world-modules@2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))':
+  '@latticexyz/world-modules@2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))':
     dependencies:
-      '@latticexyz/common': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
-      '@latticexyz/config': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
-      '@latticexyz/schema-type': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
-      '@latticexyz/store': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
-      '@latticexyz/world': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/common': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/config': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/schema-type': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/store': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/world': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
       zod: 3.23.8
     transitivePeerDependencies:
       - '@aws-sdk/client-kms'
@@ -8996,15 +8996,15 @@ snapshots:
       - typescript
       - viem
 
-  '@latticexyz/world@2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)':
+  '@latticexyz/world@2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)':
     dependencies:
       '@ark/util': 0.2.2
-      '@latticexyz/block-logs-stream': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
-      '@latticexyz/common': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
-      '@latticexyz/config': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
-      '@latticexyz/protocol-parser': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
-      '@latticexyz/schema-type': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
-      '@latticexyz/store': 2.2.15-entrykit-1c24e4739090d185171d9f8e4a257735e4710b70(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/block-logs-stream': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/common': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/config': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/protocol-parser': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/schema-type': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+      '@latticexyz/store': 2.2.15-entrykit-d928bffbd5581fdc643915df1e5faad2eaafa210(@aws-sdk/client-kms@3.682.0)(asn1.js@5.4.1)(typescript@5.4.2)(viem@2.21.19(bufferutil@4.0.8)(typescript@5.4.2)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
       abitype: 1.0.6(typescript@5.4.2)(zod@3.23.8)
       arktype: 2.0.0-beta.6
       debug: 4.3.7(supports-color@5.5.0)

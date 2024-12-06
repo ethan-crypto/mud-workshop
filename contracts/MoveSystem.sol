@@ -5,22 +5,26 @@ import {System} from "@latticexyz/world/src/System.sol";
 
 import {Direction} from "./codegen/common.sol";
 import {Position, PositionData} from "./codegen/tables/Position.sol";
+import {MAP_SIZE} from "./constants.sol";
 
 contract MoveSystem is System {
   function move(Direction direction) public {
     address player = _msgSender();
     PositionData memory position = Position.get(player);
 
-    if (direction == Direction.North) {
-      position.y += 1;
-    } else if (direction == Direction.East) {
-      position.x += 1;
-    } else if (direction == Direction.South) {
-      position.y -= 1;
-    } else if (direction == Direction.West) {
-      position.x -= 1;
+    uint32 targetX = position.x;
+    uint32 targetY = position.y;
+    if (direction == Direction.North && targetY > 0) {
+      targetY -= 1;
+    } else if (direction == Direction.East && targetX < MAP_SIZE - 1) {
+      targetX += 1;
+    } else if (direction == Direction.South && targetY < MAP_SIZE - 1) {
+      targetY += 1;
+    } else if (direction == Direction.West && targetX > 0) {
+      targetX -= 1;
     }
-
+    position.x = targetX;
+    position.y = targetY;
     Position.set(player, position);
   }
 }

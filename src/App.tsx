@@ -6,7 +6,6 @@ import { stash } from "./mud/stash";
 import { Direction, enums, tables } from "./common";
 import { useRecords } from "./mud/useRecords";
 import { GameMap } from "./GameMap";
-import { Tasks } from "./Tasks";
 import { useWorldContract } from "./useWorldContract";
 
 export function App() {
@@ -41,7 +40,6 @@ export function App() {
 
       <div className="p-4 space-y-4">
         <AccountButton />
-        {isLive ? <Tasks /> : null}
       </div>
 
       <Explorer />
