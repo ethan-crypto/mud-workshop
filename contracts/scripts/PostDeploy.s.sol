@@ -6,6 +6,8 @@ import {console} from "forge-std/console.sol";
 import {StoreSwitch} from "@latticexyz/store/src/StoreSwitch.sol";
 
 import {IWorld} from "../codegen/world/IWorld.sol";
+import {Halo2Verifier} from "../Halo2Verifier.sol";
+import {IVerifier, NPC} from "../NPC.sol";
 
 contract PostDeploy is Script {
   function run(address worldAddress) external {
@@ -14,10 +16,14 @@ contract PostDeploy is Script {
 
     vm.startBroadcast(deployerPrivateKey);
 
-    // TODO: deploy verifier and npc
-    //
-    // NPC npc = new NPC(IWorld(worldAddress), verifier, target);
-    // console.log(address(npc));
+
+    IVerifier verifier = new Halo2Verifier();
+
+    // TODO: set target
+    address target = address(msg.sender);
+
+    NPC npc = new NPC(IWorld(worldAddress), verifier, target);
+    console.log(address(npc));
 
     vm.stopBroadcast();
   }

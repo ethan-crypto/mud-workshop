@@ -8,10 +8,8 @@ import {IWorld} from "./codegen/world/IWorld.sol";
 import {Direction} from "./codegen/common.sol";
 import {Position, PositionData} from "./codegen/tables/Position.sol";
 import {MAP_SIZE} from "./constants.sol";
+import {IVerifier} from "./IVerifier.sol";
 
-interface IVerifier {
-  function verifyProof(bytes calldata proof, uint256[] calldata instances) external returns (bool);
-}
 
 // Simple NPC
 contract NPC {
