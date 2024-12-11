@@ -7,6 +7,7 @@ import { Direction, enums, tables } from "./common";
 import { useRecords } from "./mud/useRecords";
 import { GameMap } from "./GameMap";
 import { useWorldContract } from "./useWorldContract";
+import { useNPC } from "./useNPC";
 
 export function App() {
   const { isLive, message, percentage } = useSyncProgress();
@@ -14,7 +15,7 @@ export function App() {
   const players = useRecords({ stash, table: tables.Position });
 
   const { worldContract } = useWorldContract();
-  const onMove = useMemo(
+  const onPlayerMove = useMemo(
     () =>
       worldContract
         ? async (direction: Direction) => {
@@ -26,11 +27,13 @@ export function App() {
     [worldContract]
   );
 
+  const npc = useNPC();
+
   return (
     <div className="absolute inset-0 grid sm:grid-cols-[auto_16rem]">
       <div className="p-4 grid place-items-center">
         {isLive ? (
-          <GameMap players={players} onMove={onMove} />
+          <GameMap players={players} onPlayerMove={onPlayerMove} onHunterMove={npc.move} />
         ) : (
           <div className="tabular-nums">
             {message} ({percentage.toFixed(1)}%)…
